@@ -102,14 +102,18 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
   display: block;
   padding: 24px 0;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-menu-link::after {
+.studio {
+  position: relative;
+  color: #404bbf;
+}
+
+.studio::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -313,6 +317,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-icons-list {
@@ -480,7 +485,7 @@ body {
 }
 
 .footer-social-title {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
